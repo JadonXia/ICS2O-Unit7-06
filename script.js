@@ -7,7 +7,7 @@ while (guess !== age) {
   guess = prompt('To access this site, guess my age!')
   guess = parseInt(guess)
   if (guess === age) {
-  alert('Congratulations, you got it!')
+    alert('Congratulations, you got it!')
   } else if (guess < age) {
     alert('You guessed too low!')
   } else if (guess > age) {
